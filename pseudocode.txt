@@ -1,0 +1,34 @@
+Some setup,
+Import random module so we can use choice() function to randomly pick item from list.
+Create list of possible values (ie. rock, paper, scissors.)
+Create variables for user and computer scores. Start at 0.
+Create variables for current round.
+
+Game function,
+If user wants to play and number of rounds passed < number of rounds selected:
+	Ask player to select rock, paper, or scissors.
+	Computer randomly selects value in list.
+	Depending on rules winner is selected.
+	Increment number of rounds passed with each iteration.
+	Increment points.
+Once have completed all rounds:
+	Calculate points.
+	User wins
+	Comp. wins
+	Tie
+		Tie breaker round?
+
+Play function,
+If user wants to play:
+	Ask them how many rounds they would like to play (“Best out of what?”) Max 5. 
+		If they enter an incorrect number, or invalid character keep prompting them to try again.
+	Tell player rules. “Rock crushes scissors, paper covers rock, scissors cut paper."
+	Start game.
+If they say no:
+	Let them exit.
+If they enter something totally invalid:
+	Prompt them to try again.
+
+Ask for users name.
+Ask whether they want to play.
+Call play function!
